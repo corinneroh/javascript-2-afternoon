@@ -15,6 +15,11 @@
 */
 
 //Code here
+var me = {
+  name: 'corinne',
+  age: 32
+}
+// me.name()
 
 
 
@@ -26,6 +31,14 @@
 */
 
 //Code here
+var favoriteThings = {
+  band: 'Kip Moore',
+  food: 'pizza',
+  person: 'me',
+  book: 'New Baby',
+  movie: 'Liar, Liar',
+  holiday: '4th of July'
+};
 
 
 
@@ -34,6 +47,8 @@
 */
 
 //Code here
+favoriteThings.car = 'Accord'
+favoriteThings.brand = 'nike'
 
 
 
@@ -42,7 +57,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 ////////// PROBLEM 3 //////////
@@ -56,6 +72,11 @@
 */
 
 //Code here
+var backPack = {}
+var item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'purple'
+
 
 
 
@@ -64,8 +85,6 @@
 */
 
 //Code here
-
-
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -98,7 +117,8 @@ var user2 = {
 
 //Code Here
 
-
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
